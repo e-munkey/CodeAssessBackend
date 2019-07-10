@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 html,
 body {
     height: 100%;
@@ -112,4 +114,58 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+.navbar-inverse{
+	background-color: #fff !important;
+	border:none !important;
+	
+}
+.navbar-inverse .navbar-brand{
+	color:#015C96;
+	font-family: 'Lato', sans-serif;
+	border-bottom: 2px solid #E2383F;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus{
+	color:#015C96;
+}
+.navbar-brand{
+	height:auto;
+	padding-bottom:0px;
+	padding-left:0px;
+	padding-right:0px;
+}
+img.nsw-logo{
+	float:left;
+	max-width:50px;
+	height:auto;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:#015C96;
+	font-family: 'Lato', sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	background-color:#E2383F;
+	color:#fff;
+}
+.navbar-inverse .navbar-nav > .active > a{
+	background-color:#015C96;
+}
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color:#E2383F;
+}
+.navbar-inverse .btn-link{
+	color:#000;
+}
+.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus{
+	color:#000;
+}
+.navbar-toggle{
+	background-color:#015C96;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color:#E2383F;
 }
