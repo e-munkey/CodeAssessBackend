@@ -169,3 +169,13 @@ img.nsw-logo{
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
 	background-color:#E2383F;
 }
+body h1{
+	font-family: 'Lato', sans-serif;
+}
+p#error{
+	padding-top:30px;
+	color:red;
+}
+select#school_name{
+	height:34px;
+}
