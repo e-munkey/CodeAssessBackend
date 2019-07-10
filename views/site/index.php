@@ -20,7 +20,10 @@ foreach($thc as $key=>$value){
 <div class="site-index">
 <div class="container">
 <div class="row">
+<?php if(!$guest) {?> 
 <h1> Total Number of Schools: <?php echo $total_schools ?> </h1>
+<h1> Data last updated: January 16, 2019 </h1>
+<?php } ?>
 </div>
 <div class="row">
 <div class="col-md-6">

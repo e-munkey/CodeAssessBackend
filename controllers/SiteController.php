@@ -62,11 +62,17 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {	
+		if (Yii::$app->user->isGuest) {
+            $guest = 1;
+        }else{
+			$guest = 0;
+		}
 		$model = new ShowData();
 		$data = $model->getData();
 		return $this->render('index', [
             'model' => $model,
 			'data' => $data,
+			'guest' => $guest,
         ]);
     }
 
